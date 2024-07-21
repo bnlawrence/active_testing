@@ -20,9 +20,9 @@ import time
 
 my_path = Path(__file__)
 results_dir = my_path.parent.parent/'results'/'posix'
-logfile=results_dir/"sci3_2407_sof_posix.log"
+logfile=results_dir/"sci6_2407_pfs_posix.log"
 
-data_dir = Path('/home/users/lawrence/hiresgw/hrcm')
+data_dir = Path('/work/scratch-pw2/lawrence')
 filename = data_dir/'ch330a.pc19790301-def.nc'
 var = "UM_m01s30i204_vn1106"
 
