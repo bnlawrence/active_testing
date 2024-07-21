@@ -21,18 +21,24 @@ import s3fs
 
 my_path = Path(__file__)
 results_dir = my_path.parent.parent/'results'/'h5netcdf'
-logfile=results_dir/"sci4_2407_h5netcdf-int.log"
+logfile=results_dir/"sci4_2407_h5netcdf-exto-opt.log"
 
 S3_URL = 'http://uor-aces-o.s3.jc.rl.ac.uk/'
+S3_URL = 'https://uor-aces-o.s3-ext.jc.rl.ac.uk/'
 S3_BUCKET = 'bnl'
 
 filename = 'ch330a.pc19790301-def.nc'
 var = "UM_m01s30i204_vn1106"
+blocks_MB = 1
+kwargs = {  'endpoint_url': S3_URL, 
+            'default_fill_cache':False,
+            'default_cache_type':"readahead",
+            'default_block_size': blocks_MB * 2**20
+}
 
 with open(logfile,'w') as sys.stdout:
 
-
-    fs = s3fs.S3FileSystem(anon=True, client_kwargs={'endpoint_url': S3_URL})
+    fs = s3fs.S3FileSystem(anon=True, **kwargs)
     uri = S3_BUCKET + '/' + filename
     e1 = time.time()
 
