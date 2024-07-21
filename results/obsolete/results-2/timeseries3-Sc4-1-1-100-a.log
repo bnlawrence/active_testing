@@ -1,0 +1,82 @@
+Dataset loaded from S3 with s3fs and Pyfive: bnl/ch330a.pc19790301-def.nc (0.13,0.99)
+{'load nc time': 1.3073253631591797, 'args': ((0, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 6.8481245040893555, 'chunk number': 1650, 'reduction time (s)': 1.1348817348480225, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 7.983245849609375}
+{'args': ((1, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.8282411098480225, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 0.8284950256347656}
+{'args': ((2, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.6820323467254639, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 0.682274580001831}
+{'args': ((3, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8010799884796143, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 0.8013670444488525}
+{'args': ((4, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.7084829807281494, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 0.708733081817627}
+{'args': ((5, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.7430717945098877, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 0.7433528900146484}
+{'args': ((6, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.9960930347442627, 'chunks processed': 15, 'storage read (B)': 29685482, 'selection 1 time (s)': 0.9963653087615967}
+{'args': ((7, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8085556030273438, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 0.8087954521179199}
+{'args': ((8, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.8644974231719971, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 0.8647246360778809}
+{'args': ((9, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.9500033855438232, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 0.9502379894256592}
+{'args': ((10, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 1.140749454498291, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 1.1410164833068848}
+{'args': ((11, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.8638308048248291, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 0.8640573024749756}
+{'args': ((12, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.1920928955078125e-06, 'chunk number': 1650, 'reduction time (s)': 0.883228063583374, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 0.8834564685821533}
+{'args': ((13, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8012266159057617, 'chunks processed': 15, 'storage read (B)': 29701892, 'selection 1 time (s)': 0.801485538482666}
+{'args': ((14, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.1920928955078125e-06, 'chunk number': 1650, 'reduction time (s)': 0.8704910278320312, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 0.8707485198974609}
+{'args': ((15, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.8453671932220459, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 0.8456323146820068}
+{'args': ((16, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 1.113950490951538, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 1.114198923110962}
+{'args': ((17, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 1.0810298919677734, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 1.0812504291534424}
+{'args': ((18, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-05, 'chunk number': 1650, 'reduction time (s)': 0.8701002597808838, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 0.8703458309173584}
+{'args': ((19, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 0.9636545181274414, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 0.9638900756835938}
+{'args': ((20, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 1.1823489665985107, 'chunks processed': 15, 'storage read (B)': 29733505, 'selection 1 time (s)': 1.1826019287109375}
+{'args': ((21, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 1.2432951927185059, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 1.243572473526001}
+{'args': ((22, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.9143397808074951, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 0.9145810604095459}
+{'args': ((23, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 0.7121851444244385, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 0.7124128341674805}
+{'args': ((24, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 1.3143401145935059, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 1.314598560333252}
+{'args': ((25, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.1920928955078125e-06, 'chunk number': 1650, 'reduction time (s)': 0.8390507698059082, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 0.8393139839172363}
+{'args': ((26, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.1920928955078125e-06, 'chunk number': 1650, 'reduction time (s)': 1.0815787315368652, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 1.0818102359771729}
+{'args': ((27, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.826223611831665, 'chunks processed': 15, 'storage read (B)': 29686785, 'selection 1 time (s)': 0.8264875411987305}
+{'args': ((28, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.9544520378112793, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 0.9546949863433838}
+{'args': ((29, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.751326322555542, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 0.7515957355499268}
+{'args': ((30, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.793083906173706, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 0.7933320999145508}
+{'args': ((31, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.9073486328125e-06, 'chunk number': 1650, 'reduction time (s)': 0.680638313293457, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 0.6808803081512451}
+{'args': ((32, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 1.1731464862823486, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 1.1733901500701904}
+{'args': ((33, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8954002857208252, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 0.8956539630889893}
+{'args': ((34, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8582780361175537, 'chunks processed': 15, 'storage read (B)': 29670387, 'selection 1 time (s)': 0.8585350513458252}
+{'args': ((35, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8384766578674316, 'chunks processed': 15, 'storage read (B)': 21287473, 'selection 1 time (s)': 0.8387033939361572}
+{'args': ((36, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.430511474609375e-06, 'chunk number': 1650, 'reduction time (s)': 0.8079771995544434, 'chunks processed': 15, 'storage read (B)': 21287473, 'selection 1 time (s)': 0.808250904083252}
+{'args': ((37, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 2.1457672119140625e-06, 'chunk number': 1650, 'reduction time (s)': 0.90592360496521, 'chunks processed': 15, 'storage read (B)': 21287473, 'selection 1 time (s)': 0.9061968326568604}
+{'args': ((38, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.6689300537109375e-06, 'chunk number': 1650, 'reduction time (s)': 1.036193609237671, 'chunks processed': 15, 'storage read (B)': 21287473, 'selection 1 time (s)': 1.0364177227020264}
+{'args': ((39, 0, slice(0, 960, None), slice(None, None, None)),), 'dataset shape': (40, 11, 1921, 2560), 'dataset chunks': (7, 1, 385, 512), 'indexing time (s)': 1.1920928955078125e-06, 'chunk number': 1650, 'reduction time (s)': 1.1584877967834473, 'chunks processed': 15, 'storage read (B)': 21287473, 'selection 1 time (s)': 1.1587204933166504}
+[[226.07815104]
+ [226.06473958]
+ [225.93765625]
+ [225.90807292]
+ [225.91736979]
+ [225.88453125]
+ [225.82075521]
+ [225.85440104]
+ [225.98325521]
+ [226.03807292]
+ [226.013125  ]
+ [226.02328125]
+ [226.03768229]
+ [226.00476563]
+ [225.91768229]
+ [225.94033854]
+ [225.9871875 ]
+ [225.9146875 ]
+ [225.81242188]
+ [225.81872396]
+ [225.84526042]
+ [225.78497396]
+ [225.63645833]
+ [225.55651042]
+ [225.45736979]
+ [225.32369792]
+ [225.16328125]
+ [225.07794271]
+ [225.0784375 ]
+ [225.10664063]
+ [225.17606771]
+ [225.36877604]
+ [225.57911458]
+ [225.69080729]
+ [225.72231771]
+ [225.82367188]
+ [225.93658854]
+ [225.96765625]
+ [225.91864583]
+ [225.9225    ]]
+Summary:  Sc4:Local (T100,BS1): 1.31s,36.92s,45.09s
