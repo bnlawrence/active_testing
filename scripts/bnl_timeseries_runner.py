@@ -5,7 +5,7 @@ from pathlib import Path
 my_path = Path(__file__)
 results_dir = my_path.parent.parent/'results'
 
-location = 'Hom24-np1'
+location = 'sci6-np1'
 
 results_dir = my_path.parent.parent/'results'/location
 results_dir.mkdir()
