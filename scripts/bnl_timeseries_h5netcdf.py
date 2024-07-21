@@ -75,11 +75,8 @@ def simple_h5netdf(s3='IN',default=True, blocks_MB=1, loc='sci4', rep='a'):
 
 if __name__ == "__main__":
 
-    for s3loc in ['IN','OUT']:
+    for s3loc in ['OUT','IN']:
         for reps in ['a','b','c']:
             simple_h5netdf(s3=s3loc,default=True, loc='sci4', rep=reps)
             for blocks in [1,5]:
-                simple_h5netdf(s3='IN',default=False, blocks_MB=blocks, loc='sci4', rep=reps)
-
-
-
+                simple_h5netdf(s3=s3loc,default=False, blocks_MB=blocks, loc='sci4', rep=reps)
