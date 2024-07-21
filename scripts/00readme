@@ -4,3 +4,13 @@ All the scripts in this directory use:
 
 - the issue6 branch of pyfive and
 - the testing2407 branch of activestorage.
+
+Only the following scripts have been tested since I split this
+out as a standalone repo and reorganised the input files:
+
+- bnl_overall
+- bnl_overview
+- bnl_timeseries_runner
+
+Other scripts may need modification as the input data will have
+moved.
