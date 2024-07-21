@@ -14,21 +14,29 @@
 
 from netCDF4 import Dataset
 import numpy as np
+from pathlib import Path
+import sys
 
+my_path = Path(__file__)
+results_dir = my_path.parent.parent/'posix'
+logfile="sci6_2407_sof_posix.log"
 
-filename = 'ch330a.pc19790301-def.nc'
+data_dir = '/home/users/lawrence/hiresgw/hrcm'
+filename = data_dir/'ch330a.pc19790301-def.nc'
 var = "UM_m01s30i204_vn1106"
 
-with Dataset(filename,'r') as dset:
+with open(logfile,'w') as sys.stdout:
 
-    ds = dset[var]
+    with Dataset(filename,'r') as dset:
 
-    # get hemispheric mean timeseries:
-    # (this would be more elegant in cf-python)
-    ts = []
-    for i in range(40):
-        ts.append(np.mean(ds[i,0,0:960,:]))
-        # get some performance diagnostics from pyactive
+        ds = dset[var]
 
-    result = np.array(ts)
-    print(result)
+        # get hemispheric mean timeseries:
+        # (this would be more elegant in cf-python)
+        ts = []
+        for i in range(40):
+            ts.append(np.mean(ds[i,0,0:960,:]))
+            # get some performance diagnostics from pyactive
+
+        result = np.array(ts)
+        print(result)
