@@ -11,6 +11,7 @@ out as a standalone repo and reorganised the input files:
 - bnl_overall
 - bnl_overview
 - bnl_timeseries_runner
+- bnl_timeseries_2df
 
 Other scripts may need modification as the input data will have
 moved.

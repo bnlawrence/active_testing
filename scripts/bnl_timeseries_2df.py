@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 import ast
 import pandas as pd
 
@@ -72,14 +72,10 @@ def plot_threads(ax, summary, threads, xtime=1.0, nbins=50):
             transform=ax.transAxes)
     
 
-
-
-
-
-            
 if __name__== "__main__":
-    current_dir =  os.path.dirname(os.path.abspath(__file__))
-    summary, df, threads = log2df(os.path.join(current_dir,'results-uni24np3/timeseries4-Uni24-np3-5-1-1-c.log'))
+    my_path = Path(__file__)
+    results_dir = my_path.parent.parent/'results'
+    summary, df, threads = log2df(results_dir/'results-uni24np3/timeseries4-Uni24-np3-5-1-1-c.log')
     figure, axis = plt.subplots(1, 1) 
 
     plot_threads(axis, summary,threads,xtime=5.0)

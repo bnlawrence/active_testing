@@ -26,6 +26,8 @@ ACTIVE_URL = "https://192.171.169.248:8080" #1 machine
 def timeseries(location='uni', blocks_MB=1, version=2, threads=100):
 
     invoke = time()
+    # You will need to implement this function for yourself,
+    # but it's pretty obvious what it does.
     key, secret = get_credentials(location='hpos')
     storage_options = {
         'key': key,
