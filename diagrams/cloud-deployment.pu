@@ -1,0 +1,80 @@
+@startuml
+
+skinparam ComponentBackgroundColor MintCream
+skinparam DatabaseBackgroundColor Green
+skinparam DatabaseFontColor White
+skinparam FrameBackgroundColor White
+skinparam Defaulttextalignment center
+skinparam CardBackgroundColor beige
+skinparam CardBorderStyle dotted
+
+'three changes needed to change layout
+'to go back to vertical, 
+'   comment out the direction line next here,
+'   swap the comments on block of request/chunk edges 
+'   swpa the comments on the AS edge
+'left to right direction
+
+frame JASMIN {
+frame "External Cloud" {
+
+    component vm1 {   
+         interface "public IP                    " as pip 
+        component reductionist
+    }
+    component vm2 {
+        component r2
+    }
+    component vm3 {
+        component r3
+    }
+    pip -- reductionist 
+    pip <--> r2
+    pip <--> r3
+
+    card anote [
+    each VM
+    receives posted JSON request
+    returns reduced JSON payload
+    --- 
+    ha configuration 
+    (using vm2,vm3 is optional)
+    ]
+}
+
+card bnote [
+maximum theoretical
+bandwidth between 
+external cloud and 
+internal cloud:
+ON: 2x25 Gbit/s
+NN: 2x100 Gbit/s
+]
+
+frame "Internal Cloud" {
+    component "    S3\nGateway" as s3
+    database Storage
+    s3 - Storage 
+}
+
+'bnote -[hidden] s3
+reductionist -[hidden]- bnote
+
+}
+
+rectangle "User Application\n" {  
+    component Python
+    component "PyActiveStorage" as AS
+    Python - AS : with or\nwithout\nDASK
+}
+
+
+AS <-> pip: "series of requests\n for reduced chunks\n"
+
+"User Application\n" -[hidden]- "External Cloud" 
+reductionist <--> s3: get data\n chunk by chunk
+r2 <--> s3
+r3 <--> s3
+
+
+@enduml
