@@ -19,7 +19,7 @@ from credentials import get_credentials
 
 S3_BUCKET = "bnl"
 S3_URL = "https://uor-aces-o.s3-ext.jc.rl.ac.uk"  # old standard
-S3_URL = "http://uor-aces-o.s3.jc.rl.ac.uk"  # new test proxy
+#S3_URL = "http://uor-aces-o.s3.jc.rl.ac.uk"  # new test proxy
 ACTIVE_URL = "https://192.171.169.248:8080" #1 machine
 #ACTIVE_URL = "https://192.171.169.113:8080" #3 machine
 
